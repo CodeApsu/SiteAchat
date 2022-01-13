@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Broek</title>
+    <link rel="stylesheet" href="CSS/Nike.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="HautDePage">
+        <!-- En-tête -->
+        <header class="header">
+            <section class="header">
+                <header>
+                    <!-- navigation -->
+                    <div class="nav">
+                        <nav>
+                            <li><a href="index.html" class="lienNav" id="accueil">Home</a></li>
+                            <li><a href="produit.html" class="lienNav">Artikel</a></li>
+                            <li><a href="#footer" class="lienNav">Contact</a></li>
+                            <li><a href="inscription.html" class="lienNav" id="Inscription">Inschrijving</a></li>
+                            <li><a href="panier.html" class="lienNav"><img src="img/panier.png" class="panier"
+                                        height="20"></a>
+                            </li>
+                        </nav>
+                </header>
+            </section>
+            <section class="FormulAJ">
+                <form action="panier.html" class="Custom">
+                    <!--Inscription-->
+                    <legend style="color: tomato;" class="legend"><u><strong>Broek:</strong></u>
+                    </legend>
+                    <div>
+                        <br>
+                        <!--Type de Customization-->
+                        <label for="Custome" style="text-decoration-line: underline;">Custom:</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" id="Imgcustom" class="Clickdiv">
+                        <label for="ImgCustom">Afbeelding (+15€)</label>
+                        <br>
+                        <label for="fileimg" style="margin-left: 25px;">Uw afbeelding invoegen: </label>
+                        <input type="file" id="fileimg" style="margin-left: 25px;">
+                        <br>
+                        <br>
+                        <input type="checkbox" id="Imgcustom" class="Clickdiv">
+                        <label for="ImgCustom">Woord Custom (+6€)</label>
+                        <br>
+                        <label for="motCustom" style="margin-left: 25px;">Schijf het woord :</label>
+                        <input type="text" id="motCustom">
+                        <br>
+                        <!-- Ajout -->
+                        <p style="text-decoration-line: underline;">In meer: </p>
+
+                        <select name="custom" id="Custome" style="margin-left: 10px;">
+                            <option value="Double">Dubbele menging +0€</option>
+                            <option value="Multi">Multi kleur +20€</option>
+                        </select>
+                        <input type="checkbox" id="Ajout">
+                        <label for="Ajout">Fluorescerende kleuring (+40€)</label>
+                        <!--Couleur-->
+                        <p style="text-decoration-line: underline;">Kleur:</p>
+                        <input type="checkbox" id="Rouge" name="Red">
+                        <label for="Rouge">Rood</label>
+                        <br>
+                        <input type="checkbox" id="Bleu" name="Blue">
+                        <label for="Bleu">Blauw</label>
+                        <br>
+                        <input type="checkbox" id="Rouge" name="Red">
+                        <label for="scales">Wit</label>
+                        <br>
+                        <input type="checkbox" id="Rouge" name="Red">
+                        <label for="scales">Zwaart</label>
+                        <br>
+                        <br>
+                        <!-- Commentaire -->
+                        <label for="Commentaire" style="text-decoration-line: underline;">Details meer:</label>
+                        <br>
+                        <br>
+                        <textarea id="Commentaire" cols="50" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <button>Kopen</button><span style="margin-left: 10px;"> | </span><button
+                            style="margin-left: 10px;">Mandje</button>
+                    </div>
+            </section>
+</body>
+<footer>
+    <section class="footer" id="footer">
+        <br>
+        <div class="Info-supp">
+            <table>
+                <tr>
+                    <td class="contact">Contact:</td>
+                </tr>
+                <tr>
+                    <td>
+                        GSM-nummer : 0487/39.65.12
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail : perso.vesti@gmail.com
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="texte" placeholder="Ecrivez-nous..." id="for-text">
+                        <button>></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <marquee direction="left" scrollamount="15">#Dank u
+            @CodePredators_ActionContreLaFaim_Nike_Hydrograffix_Mme.Egen_Client_Donnateur_Mr.Silvestre_Colègues--/Nous
+            remercions toutes personnes ayant contribué à ce projet.</marquee>
+    </section>
+    <br>
+</footer>
+
+</html>

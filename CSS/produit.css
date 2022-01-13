@@ -1,0 +1,34 @@
+/* Corp */
+body {
+    margin: 0%;
+    background-image: url(img/watercolor-5062356_1920.jpg);
+}
+h3 {
+  margin-top: 100px;
+}
+.imgVC {
+  display: inline;
+  flex-direction: column;
+}
+img {
+  margin-right: 50px;
+}
+img:hover {
+  border: 10px solid black;
+  border-radius: 50px;
+  transition: all 0.5s ease-out;
+}
+figure {position: relative; display: inline-block;}
+figure:hover figcaption {
+  display: block;
+}
+figure figcaption{
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 20; right: 10;
+  background-color:red;
+  padding:2px;
+  overflow: hidden;
+  max-height: 100%;
+}

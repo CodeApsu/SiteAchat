@@ -1,0 +1,42 @@
+body {
+    background-image: url(img/paper.jpg);
+}
+.Choix {
+    display: flex;
+    margin: 100px;
+}
+.ChoixP {
+    margin: 5%;
+    width: 100px;
+    height: 60px;
+    background: rgb(158, 6, 6);
+    transition: width 0.5s, height 0.5s;
+  }
+  .ChoixP:hover {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .lienpull {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      text-align: center;
+  }
+  .ChoixT {
+    margin: 5%;
+    width: 100px;
+    height: 60px;
+    background: rgb(158, 6, 6);
+    transition: width 0.5s, height 0.5s;
+  }
+  .ChoixT:hover {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .lienT {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      text-align: center;
+  }
+

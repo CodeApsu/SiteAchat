@@ -1,0 +1,59 @@
+body {
+    background-image: url(img/ball-Nike.jpg);
+}
+.Choix {
+    display: flex;
+    margin: 100px;
+}
+.ChoixAJ {
+    margin: 5%;
+    width: 100px;
+    height: 60px;
+    background: rgb(158, 6, 6);
+    transition: width 0.5s, height 0.5s;
+  }
+  .ChoixAJ:hover {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .lienAJ {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      text-align: center;
+  }
+  .ChoixAM {
+    margin: 5%;
+    width: 100px;
+    height: 60px;
+    background: rgb(158, 6, 6);
+    transition: width 0.5s, height 0.5s;
+    
+  }
+  .ChoixAM:hover {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .lienAM {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      text-align: center;
+  }
+  .ChoixAF {
+    margin: 5%;
+    width: 100px;
+    height: 60px;
+    background: rgb(158, 6, 6);
+    transition: width 0.5s, height 0.5s;
+  }
+  .ChoixAF:hover {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .lienAF {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      text-align: center;
+  }

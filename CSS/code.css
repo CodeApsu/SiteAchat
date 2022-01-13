@@ -1,0 +1,21 @@
+body {
+    background-image: url(img/family-4962874_1920.jpg);
+    height: 300px;
+}
+.legend {
+    font-size:25px;
+    margin-bottom:15px;
+}
+.inscription {
+    color:black;
+    margin : 40px;
+    width:380px;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    border: 3px solid #e4d6d6;
+    text-align: left;
+    background: #f1f1f1;
+    margin-top: 10%;
+    margin-left: 35%;
+}
