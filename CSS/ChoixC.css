@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/ball-Nike.jpg);
+    background-image: url("..img/ball-Nike.jpg");
 }
 .Choix {
     display: flex;
